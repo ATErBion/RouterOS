@@ -32,9 +32,26 @@
 /ip firewall address-list remove [/ip firewall address-list find comment="weiyun"]
 /ip firewall address-list add address=113.108.16.111 comment="weiyun" list="cloud_storage"
 /ip firewall address-list add address=168.63.128.206 comment="weiyun" list="cloud_storage"
+/ip firewall address-list add address=202.55.10.192 comment="weiyun" list="cloud_storage"
+/ip firewall address-list add address=59.37.116.123 comment="weiyun" list="cloud_storage"
 #
 #baiduyun
 #
 /ip firewall address-list remove [/ip firewall address-list find comment="c.pcs.baidu.com"]
 /ip firewall address-list add address=183.131.34.13 comment="c.pcs.baidu.com" list="cloud_storage"
 
+54.240.227.128
+
+54.240.227.0
+54.240.227.10
+54.240.227.20
+54.240.226.0
+54.240.226.160
+54.240.226.168
+54.240.226.170
+
+54.251.193.25
+
+
+
+17.158.28.22

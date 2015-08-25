@@ -331,6 +331,15 @@
 /ip dns static add address=127.0.0.1 comment="baidu" name=ucstat.baidu.com
 /ip dns static add address=127.0.0.1 comment="baidu" name=utility.baidu.com
 /ip dns static add address=127.0.0.1 comment="baidu" name=utk.baidu.com 
+/ip dns static add address=127.0.0.1 comment="baidu" name=mobads.baidu.com
+/ip dns static add address=127.0.0.1 comment="baidu" name=api.adcome.cn
+/ip dns static add address=127.0.0.1 comment="baidu" name=adbc.renren.com
+/ip dns static add address=127.0.0.1 comment="baidu" name=mob.adwhirl.com
+/ip dns static add address=127.0.0.1 comment="baidu" name=ios.ijinshan.com 
+/ip dns static add address=127.0.0.1 comment="baidu" name=push.icastlewar.com
+#baidu map
+/ip dns static add address=127.0.0.1 comment="baidu" name=cfg.imap.baidu.com
+#
 #
 #iqiyi
 /ip dns static remove [/ip dns static find comment="iqiyi"]
@@ -564,17 +573,6 @@
 /ip dns static remove [/ip dns static find comment="uyunad"]
 /ip dns static add address=127.0.0.1 comment="uyunad" name=uyunad.com
 /ip dns static add address=127.0.0.1 comment="uyunad" name=www.uyunad.com
-#
-#baidu
-/ip dns static remove [/ip dns static find comment="baidu"]
-/ip dns static add address=127.0.0.1 comment="baidu" name=mobads.baidu.com
-/ip dns static add address=127.0.0.1 comment="baidu" name=api.adcome.cn
-/ip dns static add address=127.0.0.1 comment="baidu" name=adbc.renren.com
-/ip dns static add address=127.0.0.1 comment="baidu" name=mob.adwhirl.com
-/ip dns static add address=127.0.0.1 comment="baidu" name=ios.ijinshan.com 
-/ip dns static add address=127.0.0.1 comment="baidu" name=push.icastlewar.com
-#baidu map
-/ip dns static add address=127.0.0.1 comment="baidu" name=cfg.imap.baidu.com
 #
 #wooboo
 /ip dns static remove [/ip dns static find comment="wooboo"]
