@@ -28,6 +28,19 @@
 /ip firewall address-list add address=219.133.49.152 comment="sh.yunup.ftn.qq.com" list="cloud_storage"
 /ip firewall address-list add address=219.133.49.160 comment="sh.yunup.ftn.qq.com" list="cloud_storage"
 /ip firewall address-list add address=219.133.49.162 comment="sh.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.211 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.156 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.163.84 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.154 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.155 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.179.139 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.175.16 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.175.17 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.153 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.156.224 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.178.216 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+/ip firewall address-list add address=182.140.179.99 comment="cd-btfs.yunup.ftn.qq.com" list="cloud_storage"
+
 #weiyun ios client
 /ip firewall address-list remove [/ip firewall address-list find comment="weiyun"]
 /ip firewall address-list add address=113.108.16.111 comment="weiyun" list="cloud_storage"
@@ -39,6 +52,7 @@
 #
 /ip firewall address-list remove [/ip firewall address-list find comment="c.pcs.baidu.com"]
 /ip firewall address-list add address=183.131.34.13 comment="c.pcs.baidu.com" list="cloud_storage"
+/ip firewall address-list add address=180.97.34.115 comment="c.pcs.baidu.com" list="cloud_storage"
 
 54.240.227.128
 
